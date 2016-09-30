@@ -1,0 +1,16 @@
+.content {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+
+.selection {
+  padding-left: 50px;
+  //margin-left: 10px;
+  background-color: #E0EBF2;
+}
+
+.navbar-default .navbar-nav &gt; li &gt; a, .navbar-default .navbar-brand {
+    color: #f6f6f6;
+}
