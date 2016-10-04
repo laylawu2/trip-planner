@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize')
 var db = require('./_db');
 
-var Place = db.define('place',{
+var Place = db.define('place',{//name of the table, plural
   address: {
     type: Sequelize.STRING,
     allowNull: false
