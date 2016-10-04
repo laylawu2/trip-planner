@@ -8,9 +8,11 @@
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=40.7128,-74.0000&amp;spn=40.7128,-74.0059&amp;t=m&amp;z=15&amp;output=embed"></iframe>
 
   </div>
+
+
     </div>
 
-    <div class="col-lg-4 selection">
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 selection">
       <div class="row">
         <h3>Hotels: </h3>
         <select>
@@ -18,7 +20,7 @@
           <option>{{ hotel.name }}</option>
           {%endfor%}
         </select>
-        <button type="button" class="btn btn-info">add</button>
+        <button type="button" class="btn btn-info btn-sm">add</button>
 
         <h3>Restaurants: </h3>
         <select>
@@ -26,7 +28,7 @@
           <option>{{ restaurant.name }}</option>
           {%endfor%}
         </select>
-        <button type="button" class="btn btn-info">add</button>
+        <button type="button" class="btn btn-info btn-sm">add</button>
 
         <h3>Activities: </h3>
         <select>
@@ -34,9 +36,9 @@
           <option>{{ activity.name }}</option>
           {%endfor%}
         </select>
-        <button type="button" class="btn btn-info">add</button>
+        <button type="button" class="btn btn-info btn-sm">add</button>
       </div>
-<br>
+<hr>
       <div class="row">
         <h3>My Hotels: </h3>
         <p>This is placeholder for selected hotels</p>

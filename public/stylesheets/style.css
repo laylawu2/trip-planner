@@ -24,12 +24,19 @@ h3 {
   left: 0;
   right: 0;
   margin-top: -50px;
-/*  background-position-x:79px ;*/
+  background-position-x:79px ;
 }
-/*@media (min-width: 450px) and (max-width: 960px) {
-     .map {background-size: //use different size;
-     background-position-x://use different size;}
-}*/
+
+@media(max-width: 450px) {
+    .selection{width: 100%;}
+     .map {
+      position: relative;
+      margin-top: 10px;
+      height: 300px;
+      background-size: 50%;//use different size;
+     background-position-x: 40//use different size;}
+
+}
 select {
   min-width: 80%;
 }
@@ -40,7 +47,7 @@ select {
   padding-top: 7px;
   height: 100%;
   float:right;
-  padding-left: 50px;
+  padding-left: 30px;
   //margin-left: 10px;
   background-color: white;
   border: 1px solid gray;
